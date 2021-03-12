@@ -214,7 +214,7 @@ namespace Encoding_Disposal_Garbage_Collection
             numb.PercentSymbol = "%";
             Console.WriteLine(9.ToString("P3", numb));
             
-            //Dispose
+            //Disposable
             Car car = new Car { Name = "Audi", MaxSpeed = 250 };
             car.TimeToTravell(new Rout { city_A = "Chisinau", city_B = "Balti", distance = 150 });
             car.Dispose();
